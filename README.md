@@ -33,7 +33,7 @@ uv sync
 - Патчи для тестирования (~5k патчей): `test_patches.tar.zst` (собраны с фотографий тестовой выборки)
 - Весь датасет (~1200 фотографий): `full_dataset_jpeg.tar.zst`
 Извлеките `train_patches.tar.zst` и `test_patches.tar.zst` по пути `dped/kvadra/training_data/` и `dped/kvadra/test_data/patches/` соответсвенно.  
-Переименуйте папку `target` в `canon` и папку `input` в `kvadra`.
+Переименуйте папку `target` в `sony` и папку `input` в `kvadra`.
 
 #### 3. Обучение модели
 ```bash
