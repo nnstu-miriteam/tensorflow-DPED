@@ -1,0 +1,6 @@
+model: kvadra
+model_dir: epoch_4/
+dped_dir: dped/
+subset: full
+result_dir: epoch_4_results
+iteration: 19000
