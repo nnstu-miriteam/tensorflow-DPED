@@ -1,0 +1,15 @@
+[project]
+name = "dped"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9, <=3.12"
+dependencies = [
+    "imageio>=2.37.0",
+    "opencv-python>=4.11.0.86",
+    "scipy>=1.13.1",
+    "split-folders>=0.5.1",
+    "tensorflow[and-cuda]>=2.19.0",
+    "tqdm>=4.67.1",
+    "wandb>=0.19.11",
+]
