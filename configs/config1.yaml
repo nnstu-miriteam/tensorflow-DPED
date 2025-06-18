@@ -1,0 +1,20 @@
+model: kvadra
+wandb_project: dped_300k
+dped_dir: dped/
+vgg_dir: vgg_pretrained/imagenet-vgg-verydeep-19.mat
+
+batch_size: 50
+train_size: 30000
+learning_rate: 5e-4
+num_train_iters: 20000
+eval_step: 1000
+gpu_number: 1
+
+w_content: 8
+w_color: 3
+w_texture: 3
+w_tv: 1000
+
+log_dir: epoch_2
+result_dir: results
+
